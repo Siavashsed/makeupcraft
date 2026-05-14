@@ -1,0 +1,10 @@
+title: Makeup Craft
+description: Expert makeup tutorials and product reviews
+theme: minima
+baseurl: ""
+url: "https://makeupcraft.io"
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+minima:
+  skin: dark
