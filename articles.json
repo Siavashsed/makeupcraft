@@ -22,5 +22,18 @@
     "outbound_links": [
       "professionalbeauty.org"
     ]
+  },
+  {
+    "title": "How to Make Eyeshadow Stay On All Day Without Creasing (A Pro MUA's Honest Guide)",
+    "slug": "eyeshadow-stay-all-day-no-creasing",
+    "meta_description": "Stop eyeshadow from creasing with pro techniques from makeup artist Sofia Marino. Primer, setting, skin prep and the real reasons shadow folds.",
+    "date": "May 17, 2026",
+    "date_iso": "2026-05-17",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/7290118/pexels-photo-7290118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "paulaschoice.com",
+      "urbandecay.com"
+    ]
   }
 ]
