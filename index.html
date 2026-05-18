@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Makeup Craft — Professional Technique for Real People</title>
+<title>Makeup Craft  -  Professional Technique for Real People</title>
 <meta name="description" content="Professional makeup technique taught without the product-pushing. Learn application fundamentals that work with any brand.">
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -157,10 +157,10 @@ loadPosts();
     fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent('makeup beauty cosmetics professional brushes')+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
       .then(function(r){return r.json();}).then(function(d){
         if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
-        else{showImg('https://picsum.photos/seed/264/1400/400','');}
-      }).catch(function(){showImg('https://picsum.photos/seed/264/1400/400','');});
+        else{showImg('https://picsum.photos/seed/736/1400/400','');}
+      }).catch(function(){showImg('https://picsum.photos/seed/736/1400/400','');});
   }else{
-    showImg('https://picsum.photos/seed/264/1400/400','');
+    showImg('https://picsum.photos/seed/736/1400/400','');
   }
 })();
 </script>
