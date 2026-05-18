@@ -32,7 +32,7 @@ img{max-width:100%;display:block}
 .nav-in{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;height:64px;gap:40px}
 .nav-logo{font-family:var(--font);font-size:22px;font-weight:800;color:var(--text);letter-spacing:.02em;text-transform:uppercase}
 .nav-logo span{color:var(--pink)}
-.nav-links{display:flex;gap:0;flex:1}
+.nav-links{display:flex;gap:0;flex:1;flex-wrap:nowrap;overflow:hidden}
 .nav-links a{font-family:var(--font);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:0 16px;height:64px;display:flex;align-items:center;color:var(--muted);transition:color .15s}
 .nav-links a:hover{color:var(--pink)}
 .nav-shop{margin-left:auto;background:var(--pink);color:#fff;font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:10px 20px;border-radius:100px;transition:background .15s}
@@ -323,6 +323,15 @@ const PLACEHOLDER_ARTS=[
   {title:"Brush Cleaning: How Often, What to Use, and the Right Technique",slug:"brush-cleaning-guide",cat:"tools",excerpt:"Dirty brushes cause breakouts and muddy blending. The quick-clean vs. deep-clean schedule explained.",mins:4,level:"beginner"},
 ];
 
+const IMGS=[
+  'https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=600&q=75',
+  'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&q=75',
+  'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600&q=75',
+  'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=75',
+  'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&q=75',
+  'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=75',
+];
+
 let arts=[];
 let activeFilter="all";
 
@@ -337,9 +346,9 @@ function renderTutorials(){
   const items=arts.slice(0,3);
   g.innerHTML=items.map((a,i)=>`
     <a href="./${a.slug}/" class="tut-card${i===0?" main":""}">
-      <div class="tut-card-img"><img src="https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=600&q=70" alt="${a.title}" loading="lazy"></div>
+      <div class="tut-card-img"><img src="${IMGS[i%IMGS.length]}" alt="${a.title}" loading="lazy"></div>
       <div class="tut-card-body">
-        <div class="tut-level ${a.level}">${a.level}</div>
+        <div class="tut-level ${a.level||'beginner'}">${a.level||'beginner'}</div>
         <div class="tut-cat">${a.cat}</div>
         <h3 class="tut-title">${a.title}</h3>
         ${i===0?`<p class="tut-excerpt">${a.excerpt}</p>`:""}
@@ -351,9 +360,9 @@ function renderTutorials(){
 function renderGrid(){
   const g=document.getElementById("artGrid");
   const filtered=activeFilter==="all"?arts:arts.filter(a=>a.cat===activeFilter);
-  g.innerHTML=filtered.map(a=>`
+  g.innerHTML=filtered.map((a,i)=>`
     <a href="./${a.slug}/" class="art-card">
-      <div class="art-card-img"><img src="https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=400&q=70" alt="${a.title}" loading="lazy"></div>
+      <div class="art-card-img"><img src="${IMGS[i%IMGS.length]}" alt="${a.title}" loading="lazy"></div>
       <div class="art-cat">${a.cat}</div>
       <h3 class="art-title">${a.title}</h3>
       <div class="art-meta">${a.mins} min read</div>
@@ -364,6 +373,10 @@ async function load(){
   try{const r=await fetch("./articles.json");if(r.ok){arts=await r.json();}else{arts=PLACEHOLDER_ARTS;}}catch{arts=PLACEHOLDER_ARTS;}
   renderTutorials();
   renderGrid();
+  if(arts[0]){
+    const hb=document.querySelector(".hero-banner-text");
+    if(hb)hb.textContent="Featured: "+arts[0].title.substring(0,60)+(arts[0].title.length>60?"...":"");
+  }
 }
 load();
 </script>
