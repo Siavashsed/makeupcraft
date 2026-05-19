@@ -1,91 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>About  -  Makeup Craft</title>
-<meta name="description" content="Professional makeup technique education from a working makeup artist.">
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About - Makeup Craft</title>
+<meta name="description" content="About Makeup Craft: Professional makeup technique education from a working makeup artist.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Inter',system-ui,sans-serif;background:#fffbf9;color:#1c1014;font-size:15px;line-height:1.75}
-a{color:#9f3f55;text-decoration:none}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 48px;border-bottom:1px solid #e8d0d8}
-.nav-logo{font-family:'Lora',Georgia,serif;font-size:22px;font-weight:700;color:#1c1014}
-.nav-links{display:flex;gap:20px}.nav-links a{font-size:13px;color:#9c6878;font-weight:500}
-.banner{background:#f8f2ef;border-bottom:1px solid #e8d0d8;padding:52px 48px;text-align:center}
-.banner h1{font-family:'Lora',Georgia,serif;font-size:clamp(26px,5vw,48px);font-weight:700;color:#1c1014;margin-bottom:8px}
-.banner p{color:#9c6878;font-size:16px}
-.pxl{height:200px;overflow:hidden}.pxl img{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s;display:block}
-.wrap{max-width:700px;margin:0 auto;padding:52px 24px}
-.avi{width:80px;height:80px;border-radius:50%;background:#9f3f55;color:#fff;font-size:24px;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 20px}
-.abt-p{color:#9c6878;line-height:1.9;margin-bottom:16px}
-h2{font-family:'Lora',Georgia,serif;font-size:22px;font-weight:700;margin:36px 0 12px;color:#1c1014}
-.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding:20px 48px;border-top:1px solid #e8d0d8;font-size:12px;color:#9c6878}
-.foot-links{display:flex;gap:16px}.foot-links a{color:#9c6878}
-@media(max-width:600px){.nav,.foot{padding:16px 20px;flex-direction:column;text-align:center}.banner{padding:36px 20px}.wrap{padding:36px 16px}}
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#fff;
+  --bg2:#fdf8fc;
+  --bg3:#f9f0f8;
+  --pink:#d63384;
+  --pink2:#b02870;
+  --blush:#f8e5f0;
+  --text:#1a0d15;
+  --muted:#897a84;
+  --border:#eddde8;
+  --font:'Raleway',sans-serif;
+  --body:'Inter',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.7}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* NAV */
+.site-nav{background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+.nav-in{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;height:64px;gap:40px}
+.nav-logo{font-family:var(--font);font-size:22px;font-weight:800;color:var(--text);letter-spacing:.02em;text-transform:uppercase}
+.nav-logo span{color:var(--pink)}
+.nav-links{display:flex;gap:0;flex:1;flex-wrap:nowrap;overflow:hidden}
+.nav-links a{font-family:var(--font);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:0 16px;height:64px;display:flex;align-items:center;color:var(--muted);transition:color .15s}
+.nav-links a:hover{color:var(--pink)}
+.nav-shop{margin-left:auto;background:var(--pink);color:#fff;font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:10px 20px;border-radius:100px;transition:background .15s}
+.nav-shop:hover{background:var(--pink2)}
+
+/* HERO - clean beauty editorial */
+.hero{background:var(--bg)}
+.hero-banner{background:var(--pink);padding:8px 0;text-align:center}
+.hero-banner-text{font-family:var(--font);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#fff}
+.hero-in{max-width:1200px;margin:0 auto;padding:56px 24px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.hero-text{}
+.hero-label{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--pink);margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.hero-label::before{content:"";width:24px;height:2px;background:var(--pink)}
+.hero-h1{font-family:var(--font);font-size:clamp(40px,5vw,62px);font-weight:800;line-height:1;letter-spacing:-.01em;text-transform:uppercase;color:var(--text);margin-bottom:16px}
+.hero-h1 span{color:var(--pink);display:block}
+.hero-desc{font-size:15px;color:var(--muted);max-width:400px;margin-bottom:32px;line-height:1.8}
+.skill-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.skill-chip{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--bg3);border:1px solid var(--border);padding:6px 14px;border-radius:100px}
+.hero-btns{display:flex;gap:12px}
+.btn-pink{background:var(--pink);color:#fff;font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:13px 24px;border-radius:100px;transition:background .15s}
+.btn-pink:hover{background:var(--pink2)}
+.btn-outline{border:1.5px solid var(--border);color:var(--muted);font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:12px 24px;border-radius:100px;transition:all .15s}
+.btn-outline:hover{border-color:var(--pink);color:var(--pink)}
+.hero-visual{position:relative}
+.hero-img{aspect-ratio:3/4;background:var(--blush);overflow:hidden;border-radius:8px}
+.hero-img img{width:100%;height:100%;object-fit:cover}
+.hero-float{position:absolute;bottom:-16px;right:-16px;background:var(--bg);border:1px solid var(--border);padding:16px 20px;border-radius:8px;box-shadow:0 8px 32px rgba(26,13,21,.08)}
+.hero-float-label{font-family:var(--font);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.hero-float-val{font-family:var(--font);font-size:20px;font-weight:800;color:var(--pink)}
+.hero-float-sub{font-size:12px;color:var(--muted)}
+
+/* TECHNIQUE FILTER */
+.tech-bar{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:0}
+.tech-in{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+.tech-in::-webkit-scrollbar{display:none}
+.tech-btn{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:14px 20px;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;cursor:pointer;white-space:nowrap;transition:all .15s}
+.tech-btn:hover,.tech-btn.active{color:var(--pink);border-color:var(--pink)}
+
+/* CONTENT SECTIONS */
+.section{padding:52px 0}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.sec-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
+.sec-title{font-family:var(--font);font-size:20px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--text)}
+.sec-see{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pink);transition:opacity .15s}
+.sec-see:hover{opacity:.7}
+
+/* TUTORIAL CARDS */
+.tutorial-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:2px;background:var(--border);margin-bottom:48px}
+.tut-card{background:var(--bg);overflow:hidden;transition:background .15s}
+.tut-card:hover{background:var(--bg2)}
+.tut-card-img{aspect-ratio:4/3;background:var(--blush);overflow:hidden}
+.tut-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.tut-card:hover .tut-card-img img{transform:scale(1.03)}
+.tut-card.main .tut-card-img{aspect-ratio:16/9}
+.tut-card-body{padding:20px}
+.tut-level{display:inline-flex;align-items:center;gap:4px;font-family:var(--font);font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+.tut-level.beginner{color:#16a34a}
+.tut-level.intermediate{color:#ca8a04}
+.tut-level.advanced{color:var(--pink)}
+.tut-cat{font-family:var(--font);font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.tut-title{font-family:var(--font);font-size:17px;font-weight:700;color:var(--text);line-height:1.25;letter-spacing:.01em;margin-bottom:8px;transition:color .15s}
+.tut-card.main .tut-title{font-size:24px}
+.tut-card:hover .tut-title{color:var(--pink)}
+.tut-excerpt{font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:12px}
+.tut-meta{font-size:11px;color:var(--muted);display:flex;gap:12px;font-family:var(--font);font-weight:600;letter-spacing:.04em}
+
+/* STANDARD GRID */
+.art-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.art-card{background:var(--bg);transition:transform .2s}
+.art-card:hover{transform:translateY(-2px)}
+.art-card-img{aspect-ratio:1;background:var(--blush);overflow:hidden;border-radius:4px;margin-bottom:14px}
+.art-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.art-card:hover .art-card-img img{transform:scale(1.03)}
+.art-cat{font-family:var(--font);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pink);margin-bottom:6px}
+.art-title{font-family:var(--font);font-size:16px;font-weight:700;color:var(--text);line-height:1.3;margin-bottom:6px;transition:color .15s}
+.art-card:hover .art-title{color:var(--pink)}
+.art-meta{font-size:12px;color:var(--muted)}
+
+/* PRODUCT SPOTLIGHT */
+.spotlight{background:var(--bg3);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:52px 0}
+.spotlight-in{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.spotlight-text{}
+.spotlight-eyebrow{font-family:var(--font);font-size:10px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--pink);margin-bottom:10px}
+.spotlight-title{font-family:var(--font);font-size:clamp(28px,4vw,44px);font-weight:800;text-transform:uppercase;letter-spacing:.01em;line-height:1;color:var(--text);margin-bottom:14px}
+.spotlight-body{font-size:14px;color:var(--muted);line-height:1.8;margin-bottom:24px}
+.spotlight-rating{display:flex;align-items:center;gap:8px;margin-bottom:20px}
+.rating-stars{display:flex;gap:2px}
+.star{width:14px;height:14px;fill:var(--pink)}
+.rating-text{font-family:var(--font);font-size:12px;font-weight:700;color:var(--muted)}
+.spotlight-btn{background:var(--pink);color:#fff;font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:13px 24px;border-radius:100px;display:inline-block;transition:background .15s}
+.spotlight-btn:hover{background:var(--pink2)}
+.spotlight-img{aspect-ratio:4/5;background:var(--blush);overflow:hidden;border-radius:12px}
+.spotlight-img img{width:100%;height:100%;object-fit:cover}
+
+/* NEWSLETTER */
+.newsletter{background:var(--pink);padding:60px 0}
+.nl-in{max-width:520px;margin:0 auto;padding:0 24px;text-align:center}
+.nl-title{font-family:var(--font);font-size:clamp(28px,4vw,42px);font-weight:800;text-transform:uppercase;letter-spacing:.02em;color:#fff;line-height:1;margin-bottom:10px}
+.nl-sub{font-size:14px;color:rgba(255,255,255,.8);margin-bottom:28px}
+.nl-form{display:flex;gap:0;border-radius:100px;overflow:hidden;border:2px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1)}
+.nl-input{flex:1;background:none;border:none;color:#fff;font-size:14px;font-family:var(--body);padding:12px 20px;outline:none}
+.nl-input::placeholder{color:rgba(255,255,255,.5)}
+.nl-btn{background:#fff;color:var(--pink);font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:12px 24px;border:none;border-radius:100px;cursor:pointer;transition:opacity .15s}
+.nl-btn:hover{opacity:.9}
+
+/* FOOTER */
+footer{background:var(--text);padding:48px 0 24px}
+.footer-in{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:32px}
+.footer-logo{font-family:var(--font);font-size:20px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:#fff;margin-bottom:8px}
+.footer-logo span{color:var(--pink)}
+.footer-desc{font-size:13px;color:rgba(255,255,255,.4);line-height:1.6}
+.footer-head{font-family:var(--font);font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:14px}
+.footer-links{display:flex;flex-direction:column;gap:10px}
+.footer-links a{font-size:13px;color:rgba(255,255,255,.5);transition:color .15s}
+.footer-links a:hover{color:var(--pink)}
+.footer-bottom{max-width:1200px;margin:0 auto;padding:24px 24px 0;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between}
+.footer-copy{font-size:12px;color:rgba(255,255,255,.25)}
+
+@media(max-width:900px){
+  .hero-in{grid-template-columns:1fr}
+  .hero-visual{display:none}
+  .tutorial-grid{grid-template-columns:1fr}
+  .art-grid{grid-template-columns:1fr 1fr}
+  .spotlight-in{grid-template-columns:1fr}
+  .footer-in{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .nav-links{display:none}
+  .art-grid{grid-template-columns:1fr}
+  .footer-in{grid-template-columns:1fr}
+}
+/* page */
+.ab{max-width:840px;margin:0 auto;padding:56px 24px 88px}
+.ab-kicker{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:#9f3f55;margin-bottom:14px}
+.ab-title{font-family:Georgia,serif;font-size:clamp(28px,5vw,42px);font-weight:800;line-height:1.15;color:#1c1014;margin:0 0 16px}
+.ab-lead{font-size:17px;line-height:1.7;color:#9c6878;margin-bottom:40px}
+.ab-author{display:flex;gap:16px;align-items:center;background:#f8f2ef;border:1px solid #e8d0d8;border-radius:10px;padding:20px 22px;margin-bottom:32px}
+.ab-avatar{width:56px;height:56px;border-radius:50%;background:#9f3f55;color:#fffbf9;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ab-name{font-size:17px;font-weight:700;color:#1c1014}
+.ab-role{font-size:13px;color:#9f3f55;font-weight:600;margin-top:2px}
+.ab-h2{font-family:Georgia,serif;font-size:20px;font-weight:700;color:#1c1014;margin:40px 0 14px}
+.ab-p{font-size:15px;line-height:1.85;color:#9c6878;margin-bottom:14px}
+.ab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:14px}
+.ab-card{background:#f8f2ef;border:1px solid #e8d0d8;border-radius:10px;padding:18px}
+.ab-card-av{width:38px;height:38px;border-radius:50%;background:#9f3f55;color:#fffbf9;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+.ab-card-name{font-size:14px;font-weight:700;color:#1c1014}
+.ab-card-role{font-size:11px;font-weight:600;color:#9f3f55;margin:2px 0 7px}
+.ab-card-bio{font-size:12px;line-height:1.65;color:#9c6878}
+.ab-cta{margin-top:44px;background:#f8f2ef;border:1px solid #e8d0d8;border-radius:12px;padding:30px 26px;text-align:center}
+.ab-cta h3{font-family:Georgia,serif;font-size:19px;font-weight:700;color:#1c1014;margin:0 0 8px}
+.ab-cta p{font-size:14px;color:#9c6878;margin:0 0 18px}
+.ab-cta a{display:inline-block;background:#9f3f55;color:#fffbf9;padding:11px 28px;border-radius:7px;font-size:14px;font-weight:700;text-decoration:none}
 </style>
 </head>
 <body>
-<nav class="nav">
-  <div class="nav-logo">Makeup Craft</div>
-  <div class="nav-links"><a href="./">Home</a><a href="about.html">About</a></div>
+<nav class="site-nav">
+  <div class="nav-in">
+    <a href="./" class="nav-logo">Makeup<span>Craft</span></a>
+    <div class="nav-links">
+      <a href="./">Tutorials</a>
+      <a href="./">Technique</a>
+      <a href="./">Skincare</a>
+      <a href="./">Reviews</a>
+      <a href="./">Beginner</a>
+    </div>
+    <a href="./" class="nav-shop">Get the Guide</a>
+  </div>
 </nav>
-<div class="banner">
-  <h1>About Makeup Craft</h1>
-  <p>Professional Technique for Real People</p>
-</div>
-<div class="pxl"><img id="pxl-img" alt=""></div>
-<div class="wrap">
-  <div class="avi">SM</div>
-  <h2 style="text-align:center">Sofia Marino</h2>
-  <p style="text-align:center;color:#9f3f55;font-weight:600;margin-bottom:28px">Professional MUA & Beauty Educator</p>
-  <p class="abt-p">I started my career behind a makeup counter at a department store, which turned out to be an excellent education in the gap between how products are marketed and how they actually perform across a range of skin types and tones. Three years on that floor taught me foundation matching, color theory application, and the reality that no single product works universally.</p>
-    <p class="abt-p">I trained formally as a makeup artist, built my kit, and started doing bridal and event work while building toward editorial and commercial. The career progression across fashion weeks, editorial shoots, and film sets over sixteen years exposed me to techniques that home-use tutorials rarely cover - how light interacts with different skin surfaces, how makeup reads on camera versus in person.</p>
-    <p class="abt-p">Teaching other artists became part of my work about seven years into my career. Through teaching I realized how much bad information was circulating about technique. The sponsored tutorial ecosystem had created artists who changed products constantly but had shallow understanding of the underlying applications.</p>
-    <p class="abt-p">The fundamental problem in beauty content is that it is almost universally product-focused because product focus generates affiliate income and brand partnerships. The result is that millions of people are buying new products to solve problems that are actually about technique.</p>
-    <p class="abt-p">Makeup Craft is technique-first. I write about specific products when they solve a genuine problem that others in the category do not solve as well. But the majority of what I publish is about application - how to build coverage without caking, how to set for longevity across different skin types, how to blend in ways that read naturally in real light.</p>
-  <h2>Our Mission</h2>
-  <p class="abt-p">Professional makeup technique taught without the product-pushing. Learn application fundamentals that work with any brand.</p>
-  <p style="margin-top:32px"><a href="./">← Back to Makeup Craft</a></p>
-</div>
-<footer class="foot">
-  <span>© Makeup Craft · Professional makeup technique education from a working makeup artist.</span>
-  <div class="foot-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+<main class="ab">
+  <div class="ab-kicker">About Makeup Craft</div>
+  <h1 class="ab-title">Professional Technique for Real People</h1>
+  <p class="ab-lead">Professional makeup technique taught without the product-pushing. Learn application fundamentals that work with any brand.</p>
+  <div class="ab-author">
+    <div class="ab-avatar">SM</div>
+    <div>
+      <div class="ab-name">Sofia Marino</div>
+      <div class="ab-role">Professional MUA & Beauty Educator</div>
+    </div>
+  </div>
+  <div class="ab-h2">Why this site exists</div>
+  <p class="ab-p">I started my career behind a makeup counter at a department store, which turned out to be an excellent education in the gap between how products are marketed and how they actually perform across a range of skin types and tones. Three years on that floor taught me foundation matching, color theory application, and the reality that no single product works universally.</p>
+    <p class="ab-p">I trained formally as a makeup artist, built my kit, and started doing bridal and event work while building toward editorial and commercial. The career progression across fashion weeks, editorial shoots, and film sets over sixteen years exposed me to techniques that home-use tutorials rarely cover - how light interacts with different skin surfaces, how makeup reads on camera versus in person.</p>
+    <p class="ab-p">Teaching other artists became part of my work about seven years into my career. Through teaching I realized how much bad information was circulating about technique. The sponsored tutorial ecosystem had created artists who changed products constantly but had shallow understanding of the underlying applications.</p>
+    <p class="ab-p">The fundamental problem in beauty content is that it is almost universally product-focused because product focus generates affiliate income and brand partnerships. The result is that millions of people are buying new products to solve problems that are actually about technique.</p>
+    <p class="ab-p">Makeup Craft is technique-first. I write about specific products when they solve a genuine problem that others in the category do not solve as well. But the majority of what I publish is about application - how to build coverage without caking, how to set for longevity across different skin types, how to blend in ways that read naturally in real light.</p>
+  <div class="ab-h2">Who contributes</div>
+  <p class="ab-p">Alongside Sofia Marino, a small group of practitioners review and pressure-test what gets published here.</p>
+  <div class="ab-grid">
+      <div class="ab-card">
+        <div class="ab-card-av">CS</div>
+        <div class="ab-card-name">Claire Sutton</div>
+        <div class="ab-card-role">Industry Contributor</div>
+        <div class="ab-card-bio">Worked in PR for major financial brands before switching sides. Understands how the narrative gets constructed, and how to cut through it.</div>
+      </div>
+      <div class="ab-card">
+        <div class="ab-card-av">JT</div>
+        <div class="ab-card-name">James Thorne</div>
+        <div class="ab-card-role">Technical Contributor</div>
+        <div class="ab-card-bio">Full-stack developer who switched to financial writing. Covers the engineering reality behind products and platforms.</div>
+      </div>
+      <div class="ab-card">
+        <div class="ab-card-av">RK</div>
+        <div class="ab-card-name">Rachel Kim</div>
+        <div class="ab-card-role">Contributing Analyst</div>
+        <div class="ab-card-bio">Former hedge fund researcher. Covers quantitative methods and market microstructure. Has contributed to three academic finance papers.</div>
+      </div>
+  </div>
+  <div class="ab-cta">
+    <h3>The Craft Letter</h3>
+    <p>Monthly technique breakdowns and product notes from a working MUA.</p>
+    <a href="./">Read the latest</a>
+  </div>
+</main>
+<footer>
+  <div class="footer-in">
+    <div>
+      <div class="footer-logo">Makeup<span>Craft</span></div>
+      <p class="footer-desc">Beauty skills, technique guides, and honest reviews for makeup lovers at every level.</p>
+    </div>
+    <div>
+      <div class="footer-head">Tutorials</div>
+      <div class="footer-links">
+        <a href="./">Eye Looks</a>
+        <a href="./">Foundation</a>
+        <a href="./">Contouring</a>
+        <a href="./">Lip Art</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-head">Learn</div>
+      <div class="footer-links">
+        <a href="./">Beginner Series</a>
+        <a href="./">Skincare First</a>
+        <a href="./">Tool Guide</a>
+        <a href="./">Reviews</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-head">Site</div>
+      <div class="footer-links">
+        <a href="./about/">About</a>
+        <a href="./">Privacy</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">&copy; 2026 MakeupCraft. All rights reserved.</div>
+    <div class="footer-copy">Beauty skills, honestly taught.</div>
+  </div>
 </footer>
-<script>/* banner loader: pexels → unsplash → picsum */
-(function(){
-  var el=document.getElementById('pxl-img');
-  var cr=document.getElementById('pxl-cred');
-  if(!el)return;
-  var SOURCES=['pexels', 'unsplash'];
-  var Q=encodeURIComponent('makeup beauty cosmetics professional brushes');
-  var FALLBACK='https://picsum.photos/seed/136/1400/400';
-  function showImg(src,cred){
-    el.onload=function(){el.style.opacity='1';if(cred&&cr){cr.textContent=cred;cr.style.opacity='1';}};
-    el.src=src;
+
+<script>
+const PLACEHOLDER_ARTS=[
+  {title:"How to Do a Smoky Eye Without Looking Like You've Been Crying",slug:"smoky-eye-guide",cat:"eyes",excerpt:"The line between sultry and smudged is technique. A step-by-step approach that blends like a pro.",mins:8,level:"intermediate"},
+  {title:"Foundation 101: How to Find Your Actual Undertone",slug:"foundation-undertone-guide",cat:"face",excerpt:"Warm, cool, neutral - most people get this wrong. The at-home test that's more accurate than store lighting.",mins:6,level:"beginner"},
+  {title:"The Beginner Eyeshadow Starter Kit (And How to Use It)",slug:"beginner-eyeshadow-kit",cat:"beginner",excerpt:"Three brushes, five shadows, and one blending technique. Everything else comes after you master this.",mins:7,level:"beginner"},
+  {title:"Contour vs. Bronzer: The Actual Difference and When to Use Each",slug:"contour-vs-bronzer",cat:"face",excerpt:"They're not the same product, and using one where you need the other is why your contour looks gray.",mins:5,level:"beginner"},
+  {title:"The 10-Minute Everyday Makeup Routine That Looks Polished",slug:"10-minute-everyday-makeup",cat:"face",excerpt:"Six products, ordered correctly, applied with intention. Fast and consistent on any morning.",mins:6,level:"beginner"},
+  {title:"How to Make Lipstick Last More Than 2 Hours",slug:"long-lasting-lipstick",cat:"lips",excerpt:"Liner, primer, layering, setting - the complete system for lipstick that doesn't bleed or fade mid-day.",mins:5,level:"intermediate"},
+  {title:"Glass Skin: The 4-Step Routine That Actually Works",slug:"glass-skin-routine",cat:"skincare",excerpt:"The Korean skincare trend broken down into practical steps - without 12-step overwhelm.",mins:9,level:"intermediate"},
+  {title:"Brush Cleaning: How Often, What to Use, and the Right Technique",slug:"brush-cleaning-guide",cat:"tools",excerpt:"Dirty brushes cause breakouts and muddy blending. The quick-clean vs. deep-clean schedule explained.",mins:4,level:"beginner"},
+];
+
+const IMGS=[
+  'https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=600&q=75',
+  'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&q=75',
+  'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600&q=75',
+  'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=75',
+  'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&q=75',
+  'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=75',
+];
+
+let arts=[];
+let activeFilter="all";
+
+function setFilter(f){
+  activeFilter=f;
+  document.querySelectorAll(".tech-btn").forEach(b=>b.classList.toggle("active",b.textContent.toLowerCase()===f||(f==="all"&&b.textContent==="All")));
+  renderGrid();
+}
+
+function renderTutorials(){
+  const g=document.getElementById("tutorialGrid");
+  const items=arts.slice(0,3);
+  g.innerHTML=items.map((a,i)=>`
+    <a href="./${a.slug}/" class="tut-card${i===0?" main":""}">
+      <div class="tut-card-img"><img src="${IMGS[i%IMGS.length]}" alt="${a.title}" loading="lazy"></div>
+      <div class="tut-card-body">
+        <div class="tut-level ${a.level||'beginner'}">${a.level||'beginner'}</div>
+        <div class="tut-cat">${a.cat}</div>
+        <h3 class="tut-title">${a.title}</h3>
+        ${i===0?`<p class="tut-excerpt">${a.excerpt}</p>`:""}
+        <div class="tut-meta"><span>${a.mins} min read</span></div>
+      </div>
+    </a>`).join("");
+}
+
+function renderGrid(){
+  const g=document.getElementById("artGrid");
+  const filtered=activeFilter==="all"?arts:arts.filter(a=>a.cat===activeFilter);
+  g.innerHTML=filtered.map((a,i)=>`
+    <a href="./${a.slug}/" class="art-card">
+      <div class="art-card-img"><img src="${IMGS[i%IMGS.length]}" alt="${a.title}" loading="lazy"></div>
+      <div class="art-cat">${a.cat}</div>
+      <h3 class="art-title">${a.title}</h3>
+      <div class="art-meta">${a.mins} min read</div>
+    </a>`).join("");
+}
+
+async function load(){
+  try{const r=await fetch("./articles.json");if(r.ok){arts=await r.json();}else{arts=PLACEHOLDER_ARTS;}}catch{arts=PLACEHOLDER_ARTS;}
+  renderTutorials();
+  renderGrid();
+  if(arts[0]){
+    const hb=document.querySelector(".hero-banner-text");
+    if(hb)hb.textContent="Featured: "+arts[0].title.substring(0,60)+(arts[0].title.length>60?"...":"");
   }
-  function tryUnsplash(){
-    var uk=localStorage.getItem('unsplashKey');
-    if(!uk){showImg(FALLBACK,'');return;}
-    fetch('https://api.unsplash.com/photos/random?query='+Q+'&count=1&orientation=landscape&client_id='+uk)
-      .then(function(r){return r.json();}).then(function(d){
-        var p=Array.isArray(d)?d[0]:d;
-        if(p&&p.urls&&p.urls.regular){showImg(p.urls.regular,'Photo: '+((p.user&&p.user.name)||'Unsplash')+' / Unsplash');}
-        else{showImg(FALLBACK,'');}
-      }).catch(function(){showImg(FALLBACK,'');});
-  }
-  function tryPexels(){
-    var k=localStorage.getItem('pexelsKey');
-    if(!k){if(SOURCES.indexOf('unsplash')>=0)tryUnsplash();else showImg(FALLBACK,'');return;}
-    fetch('https://api.pexels.com/v1/search?query='+Q+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
-      .then(function(r){return r.json();}).then(function(d){
-        if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
-        else if(SOURCES.indexOf('unsplash')>=0){tryUnsplash();}
-        else{showImg(FALLBACK,'');}
-      }).catch(function(){if(SOURCES.indexOf('unsplash')>=0)tryUnsplash();else showImg(FALLBACK,'');});
-  }
-  if(SOURCES.indexOf('pexels')>=0){tryPexels();}
-  else if(SOURCES.indexOf('unsplash')>=0){tryUnsplash();}
-  else{showImg(FALLBACK,'');}
-})();</script>
-</body></html>
+}
+load();
+</script>
+</body>
+</html>
