@@ -1,43 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Terms and Conditions - Makeup Craft</title>
+<meta name="description" content="Terms and Conditions for Makeup Craft.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{  --bg:#fffbf9;--bg2:#f8f2ef;--sur:#f0e8e4;
-  --pri:#9f3f55;--pri2:#7f1d3a;
-  --txt:#1c1014;--mut:#9c6878;--brd:#e8d0d8;
-  --fh:Georgia,serif;--fb:system-ui,sans-serif;--fm:monospace;}
-body{font-family:var(--fb);background:var(--bg);color:var(--txt);font-size:15px;line-height:1.75;min-height:100vh}
-a{color:var(--pri);text-decoration:none}a:hover{text-decoration:underline}
-.lg-nav{display:flex;align-items:center;justify-content:space-between;padding:14px 40px;border-bottom:1px solid var(--brd);background:var(--bg2);flex-wrap:wrap;gap:10px}
-.lg-brand{font-weight:700;font-size:17px;color:var(--pri);text-decoration:none}
-.lg-nav a{font-size:13px;color:var(--mut)}
-.lg-nav-links{display:flex;gap:24px;flex-wrap:wrap}
-.lg-wrap{max-width:820px;margin:0 auto;padding:52px 40px 80px}
-.lg-title{font-size:30px;font-weight:800;margin-bottom:8px;line-height:1.15}
-.lg-meta{font-size:12px;color:var(--mut);margin-bottom:36px;padding-bottom:20px;border-bottom:1px solid var(--brd)}
-.lg-h2{font-size:17px;font-weight:700;margin:28px 0 10px;color:var(--pri)}
-.lg-p{color:var(--mut);margin-bottom:13px;line-height:1.85}
-.lg-p b,.lg-p strong{color:var(--txt)}
-.lg-ul{color:var(--mut);margin:0 0 13px 22px;line-height:1.9}
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#fff;
+  --bg2:#fdf8fc;
+  --bg3:#f9f0f8;
+  --pink:#d63384;
+  --pink2:#b02870;
+  --blush:#f8e5f0;
+  --text:#1a0d15;
+  --muted:#897a84;
+  --border:#eddde8;
+  --font:'Raleway',sans-serif;
+  --body:'Inter',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.7}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* NAV */
+.site-nav{background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+.nav-in{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;height:64px;gap:40px}
+.nav-logo{font-family:var(--font);font-size:22px;font-weight:800;color:var(--text);letter-spacing:.02em;text-transform:uppercase}
+.nav-logo span{color:var(--pink)}
+.nav-links{display:flex;gap:0;flex:1;flex-wrap:nowrap;overflow:hidden}
+.nav-links a{font-family:var(--font);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:0 16px;height:64px;display:flex;align-items:center;color:var(--muted);transition:color .15s}
+.nav-links a:hover{color:var(--pink)}
+.nav-shop{margin-left:auto;background:var(--pink);color:#fff;font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:10px 20px;border-radius:100px;transition:background .15s}
+.nav-shop:hover{background:var(--pink2)}
+
+/* HERO - clean beauty editorial */
+.hero{background:var(--bg)}
+.hero-banner{background:var(--pink);padding:8px 0;text-align:center}
+.hero-banner-text{font-family:var(--font);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#fff}
+.hero-in{max-width:1200px;margin:0 auto;padding:56px 24px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.hero-text{}
+.hero-label{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--pink);margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.hero-label::before{content:"";width:24px;height:2px;background:var(--pink)}
+.hero-h1{font-family:var(--font);font-size:clamp(40px,5vw,62px);font-weight:800;line-height:1;letter-spacing:-.01em;text-transform:uppercase;color:var(--text);margin-bottom:16px}
+.hero-h1 span{color:var(--pink);display:block}
+.hero-desc{font-size:15px;color:var(--muted);max-width:400px;margin-bottom:32px;line-height:1.8}
+.skill-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.skill-chip{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--bg3);border:1px solid var(--border);padding:6px 14px;border-radius:100px}
+.hero-btns{display:flex;gap:12px}
+.btn-pink{background:var(--pink);color:#fff;font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:13px 24px;border-radius:100px;transition:background .15s}
+.btn-pink:hover{background:var(--pink2)}
+.btn-outline{border:1.5px solid var(--border);color:var(--muted);font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:12px 24px;border-radius:100px;transition:all .15s}
+.btn-outline:hover{border-color:var(--pink);color:var(--pink)}
+.hero-visual{position:relative}
+.hero-img{aspect-ratio:3/4;background:var(--blush);overflow:hidden;border-radius:8px}
+.hero-img img{width:100%;height:100%;object-fit:cover}
+.hero-float{position:absolute;bottom:-16px;right:-16px;background:var(--bg);border:1px solid var(--border);padding:16px 20px;border-radius:8px;box-shadow:0 8px 32px rgba(26,13,21,.08)}
+.hero-float-label{font-family:var(--font);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.hero-float-val{font-family:var(--font);font-size:20px;font-weight:800;color:var(--pink)}
+.hero-float-sub{font-size:12px;color:var(--muted)}
+
+/* TECHNIQUE FILTER */
+.tech-bar{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:0}
+.tech-in{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+.tech-in::-webkit-scrollbar{display:none}
+.tech-btn{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:14px 20px;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;cursor:pointer;white-space:nowrap;transition:all .15s}
+.tech-btn:hover,.tech-btn.active{color:var(--pink);border-color:var(--pink)}
+
+/* CONTENT SECTIONS */
+.section{padding:52px 0}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.sec-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
+.sec-title{font-family:var(--font);font-size:20px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--text)}
+.sec-see{font-family:var(--font);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pink);transition:opacity .15s}
+.sec-see:hover{opacity:.7}
+
+/* TUTORIAL CARDS */
+.tutorial-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:2px;background:var(--border);margin-bottom:48px}
+.tut-card{background:var(--bg);overflow:hidden;transition:background .15s}
+.tut-card:hover{background:var(--bg2)}
+.tut-card-img{aspect-ratio:4/3;background:var(--blush);overflow:hidden}
+.tut-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.tut-card:hover .tut-card-img img{transform:scale(1.03)}
+.tut-card.main .tut-card-img{aspect-ratio:16/9}
+.tut-card-body{padding:20px}
+.tut-level{display:inline-flex;align-items:center;gap:4px;font-family:var(--font);font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+.tut-level.beginner{color:#16a34a}
+.tut-level.intermediate{color:#ca8a04}
+.tut-level.advanced{color:var(--pink)}
+.tut-cat{font-family:var(--font);font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.tut-title{font-family:var(--font);font-size:17px;font-weight:700;color:var(--text);line-height:1.25;letter-spacing:.01em;margin-bottom:8px;transition:color .15s}
+.tut-card.main .tut-title{font-size:24px}
+.tut-card:hover .tut-title{color:var(--pink)}
+.tut-excerpt{font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:12px}
+.tut-meta{font-size:11px;color:var(--muted);display:flex;gap:12px;font-family:var(--font);font-weight:600;letter-spacing:.04em}
+
+/* STANDARD GRID */
+.art-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.art-card{background:var(--bg);transition:transform .2s}
+.art-card:hover{transform:translateY(-2px)}
+.art-card-img{aspect-ratio:1;background:var(--blush);overflow:hidden;border-radius:4px;margin-bottom:14px}
+.art-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.art-card:hover .art-card-img img{transform:scale(1.03)}
+.art-cat{font-family:var(--font);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pink);margin-bottom:6px}
+.art-title{font-family:var(--font);font-size:16px;font-weight:700;color:var(--text);line-height:1.3;margin-bottom:6px;transition:color .15s}
+.art-card:hover .art-title{color:var(--pink)}
+.art-meta{font-size:12px;color:var(--muted)}
+
+/* PRODUCT SPOTLIGHT */
+.spotlight{background:var(--bg3);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:52px 0}
+.spotlight-in{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.spotlight-text{}
+.spotlight-eyebrow{font-family:var(--font);font-size:10px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--pink);margin-bottom:10px}
+.spotlight-title{font-family:var(--font);font-size:clamp(28px,4vw,44px);font-weight:800;text-transform:uppercase;letter-spacing:.01em;line-height:1;color:var(--text);margin-bottom:14px}
+.spotlight-body{font-size:14px;color:var(--muted);line-height:1.8;margin-bottom:24px}
+.spotlight-rating{display:flex;align-items:center;gap:8px;margin-bottom:20px}
+.rating-stars{display:flex;gap:2px}
+.star{width:14px;height:14px;fill:var(--pink)}
+.rating-text{font-family:var(--font);font-size:12px;font-weight:700;color:var(--muted)}
+.spotlight-btn{background:var(--pink);color:#fff;font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:13px 24px;border-radius:100px;display:inline-block;transition:background .15s}
+.spotlight-btn:hover{background:var(--pink2)}
+.spotlight-img{aspect-ratio:4/5;background:var(--blush);overflow:hidden;border-radius:12px}
+.spotlight-img img{width:100%;height:100%;object-fit:cover}
+
+/* NEWSLETTER */
+.newsletter{background:var(--pink);padding:60px 0}
+.nl-in{max-width:520px;margin:0 auto;padding:0 24px;text-align:center}
+.nl-title{font-family:var(--font);font-size:clamp(28px,4vw,42px);font-weight:800;text-transform:uppercase;letter-spacing:.02em;color:#fff;line-height:1;margin-bottom:10px}
+.nl-sub{font-size:14px;color:rgba(255,255,255,.8);margin-bottom:28px}
+.nl-form{display:flex;gap:0;border-radius:100px;overflow:hidden;border:2px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1)}
+.nl-input{flex:1;background:none;border:none;color:#fff;font-size:14px;font-family:var(--body);padding:12px 20px;outline:none}
+.nl-input::placeholder{color:rgba(255,255,255,.5)}
+.nl-btn{background:#fff;color:var(--pink);font-family:var(--font);font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:12px 24px;border:none;border-radius:100px;cursor:pointer;transition:opacity .15s}
+.nl-btn:hover{opacity:.9}
+
+/* FOOTER */
+footer{background:var(--text);padding:48px 0 24px}
+.footer-in{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:32px}
+.footer-logo{font-family:var(--font);font-size:20px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:#fff;margin-bottom:8px}
+.footer-logo span{color:var(--pink)}
+.footer-desc{font-size:13px;color:rgba(255,255,255,.4);line-height:1.6}
+.footer-head{font-family:var(--font);font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:14px}
+.footer-links{display:flex;flex-direction:column;gap:10px}
+.footer-links a{font-size:13px;color:rgba(255,255,255,.5);transition:color .15s}
+.footer-links a:hover{color:var(--pink)}
+.footer-bottom{max-width:1200px;margin:0 auto;padding:24px 24px 0;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between}
+.footer-copy{font-size:12px;color:rgba(255,255,255,.25)}
+
+@media(max-width:900px){
+  .hero-in{grid-template-columns:1fr}
+  .hero-visual{display:none}
+  .tutorial-grid{grid-template-columns:1fr}
+  .art-grid{grid-template-columns:1fr 1fr}
+  .spotlight-in{grid-template-columns:1fr}
+  .footer-in{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .nav-links{display:none}
+  .art-grid{grid-template-columns:1fr}
+  .footer-in{grid-template-columns:1fr}
+}
+/* page */
+.lg-wrap{max-width:820px;margin:0 auto;padding:52px 24px 84px}
+.lg-title{font-family:Georgia,serif;font-size:clamp(26px,4vw,34px);font-weight:800;margin:0 0 8px;line-height:1.15;color:#1c1014}
+.lg-meta{font-size:12px;color:#9c6878;margin-bottom:36px;padding-bottom:20px;border-bottom:1px solid #e8d0d8}
+.lg-h2{font-family:Georgia,serif;font-size:18px;font-weight:700;margin:30px 0 10px;color:#9f3f55}
+.lg-p{color:#9c6878;margin-bottom:13px;line-height:1.85;font-size:15px}
+.lg-p b,.lg-p strong{color:#1c1014}
+.lg-p a{color:#9f3f55}
+.lg-ul{color:#9c6878;margin:0 0 13px 22px;line-height:1.9;font-size:15px}
 .lg-ul li{margin-bottom:4px}
-.lg-box{background:var(--bg2);border:1px solid var(--brd);border-radius:6px;padding:16px 20px;margin:16px 0 20px}
-.lg-foot{border-top:1px solid var(--brd);padding:20px 40px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:40px}
-.lg-foot-copy{font-size:11px;color:var(--mut)}
-.lg-foot-links{display:flex;gap:14px;flex-wrap:wrap}
-.lg-foot-links a{font-size:11px;color:var(--mut)}
-@media(max-width:640px){.lg-nav,.lg-wrap,.lg-foot{padding-left:16px;padding-right:16px}.lg-title{font-size:22px}}
+.lg-box{background:#f8f2ef;border:1px solid #e8d0d8;border-radius:6px;padding:16px 20px;margin:16px 0 20px}
+@media(max-width:640px){.lg-wrap{padding-left:16px;padding-right:16px}}
 </style>
 </head>
 <body>
-<nav class="lg-nav">
-  <a href="./" class="lg-brand">Makeup Craft</a>
-  <div class="lg-nav-links"><a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="sms.html">SMS</a><a href="meta-policy.html">Meta Policy</a></div>
+<nav class="site-nav">
+  <div class="nav-in">
+    <a href="./" class="nav-logo">Makeup<span>Craft</span></a>
+    <div class="nav-links">
+      <a href="./">Tutorials</a>
+      <a href="./">Technique</a>
+      <a href="./">Skincare</a>
+      <a href="./">Reviews</a>
+      <a href="./">Beginner</a>
+    </div>
+    <a href="./" class="nav-shop">Get the Guide</a>
+  </div>
 </nav>
-<div class="lg-wrap">
-  <div class="lg-title">Terms and Conditions</div>
+<main class="lg-wrap">
+  <h1 class="lg-title">Terms and Conditions</h1>
   <div class="lg-meta">Applies to: <strong>Makeup Craft</strong> | Last updated: May 1, 2025</div>
   <div class="lg-h2">1. Acceptance of Terms</div>
 <p class="lg-p">By accessing or using <strong>Makeup Craft</strong> (this "Site"), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use this site. These terms apply to all visitors, subscribers, and users of this site.</p>
@@ -84,9 +241,113 @@ a{color:var(--pri);text-decoration:none}a:hover{text-decoration:underline}
 
 <div class="lg-h2">10. Contact</div>
 <p class="lg-p">Questions about these terms can be directed to <strong>Sofia Marino</strong> at Makeup Craft. We respond to all inquiries within 10 business days.</p>
-</div>
-<div class="lg-foot">
-  <span class="lg-foot-copy">© Makeup Craft - Professional makeup technique education from a working makeup artist.</span>
-  <div class="lg-foot-links"><a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="sms.html">SMS Policy</a><a href="meta-policy.html">Meta Policy</a></div>
-</div>
-</body></html>
+</main>
+<footer>
+  <div class="footer-in">
+    <div>
+      <div class="footer-logo">Makeup<span>Craft</span></div>
+      <p class="footer-desc">Beauty skills, technique guides, and honest reviews for makeup lovers at every level.</p>
+    </div>
+    <div>
+      <div class="footer-head">Tutorials</div>
+      <div class="footer-links">
+        <a href="./">Eye Looks</a>
+        <a href="./">Foundation</a>
+        <a href="./">Contouring</a>
+        <a href="./">Lip Art</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-head">Learn</div>
+      <div class="footer-links">
+        <a href="./">Beginner Series</a>
+        <a href="./">Skincare First</a>
+        <a href="./">Tool Guide</a>
+        <a href="./">Reviews</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-head">Site</div>
+      <div class="footer-links">
+        <a href="./about/">About</a>
+        <a href="./">Privacy</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">&copy; 2026 MakeupCraft. All rights reserved.</div>
+    <div class="footer-copy">Beauty skills, honestly taught.</div>
+  </div>
+</footer>
+
+<script>
+const PLACEHOLDER_ARTS=[
+  {title:"How to Do a Smoky Eye Without Looking Like You've Been Crying",slug:"smoky-eye-guide",cat:"eyes",excerpt:"The line between sultry and smudged is technique. A step-by-step approach that blends like a pro.",mins:8,level:"intermediate"},
+  {title:"Foundation 101: How to Find Your Actual Undertone",slug:"foundation-undertone-guide",cat:"face",excerpt:"Warm, cool, neutral - most people get this wrong. The at-home test that's more accurate than store lighting.",mins:6,level:"beginner"},
+  {title:"The Beginner Eyeshadow Starter Kit (And How to Use It)",slug:"beginner-eyeshadow-kit",cat:"beginner",excerpt:"Three brushes, five shadows, and one blending technique. Everything else comes after you master this.",mins:7,level:"beginner"},
+  {title:"Contour vs. Bronzer: The Actual Difference and When to Use Each",slug:"contour-vs-bronzer",cat:"face",excerpt:"They're not the same product, and using one where you need the other is why your contour looks gray.",mins:5,level:"beginner"},
+  {title:"The 10-Minute Everyday Makeup Routine That Looks Polished",slug:"10-minute-everyday-makeup",cat:"face",excerpt:"Six products, ordered correctly, applied with intention. Fast and consistent on any morning.",mins:6,level:"beginner"},
+  {title:"How to Make Lipstick Last More Than 2 Hours",slug:"long-lasting-lipstick",cat:"lips",excerpt:"Liner, primer, layering, setting - the complete system for lipstick that doesn't bleed or fade mid-day.",mins:5,level:"intermediate"},
+  {title:"Glass Skin: The 4-Step Routine That Actually Works",slug:"glass-skin-routine",cat:"skincare",excerpt:"The Korean skincare trend broken down into practical steps - without 12-step overwhelm.",mins:9,level:"intermediate"},
+  {title:"Brush Cleaning: How Often, What to Use, and the Right Technique",slug:"brush-cleaning-guide",cat:"tools",excerpt:"Dirty brushes cause breakouts and muddy blending. The quick-clean vs. deep-clean schedule explained.",mins:4,level:"beginner"},
+];
+
+const IMGS=[
+  'https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=600&q=75',
+  'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&q=75',
+  'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600&q=75',
+  'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=75',
+  'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=600&q=75',
+  'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=75',
+];
+
+let arts=[];
+let activeFilter="all";
+
+function setFilter(f){
+  activeFilter=f;
+  document.querySelectorAll(".tech-btn").forEach(b=>b.classList.toggle("active",b.textContent.toLowerCase()===f||(f==="all"&&b.textContent==="All")));
+  renderGrid();
+}
+
+function renderTutorials(){
+  const g=document.getElementById("tutorialGrid");
+  const items=arts.slice(0,3);
+  g.innerHTML=items.map((a,i)=>`
+    <a href="./${a.slug}/" class="tut-card${i===0?" main":""}">
+      <div class="tut-card-img"><img src="${IMGS[i%IMGS.length]}" alt="${a.title}" loading="lazy"></div>
+      <div class="tut-card-body">
+        <div class="tut-level ${a.level||'beginner'}">${a.level||'beginner'}</div>
+        <div class="tut-cat">${a.cat}</div>
+        <h3 class="tut-title">${a.title}</h3>
+        ${i===0?`<p class="tut-excerpt">${a.excerpt}</p>`:""}
+        <div class="tut-meta"><span>${a.mins} min read</span></div>
+      </div>
+    </a>`).join("");
+}
+
+function renderGrid(){
+  const g=document.getElementById("artGrid");
+  const filtered=activeFilter==="all"?arts:arts.filter(a=>a.cat===activeFilter);
+  g.innerHTML=filtered.map((a,i)=>`
+    <a href="./${a.slug}/" class="art-card">
+      <div class="art-card-img"><img src="${IMGS[i%IMGS.length]}" alt="${a.title}" loading="lazy"></div>
+      <div class="art-cat">${a.cat}</div>
+      <h3 class="art-title">${a.title}</h3>
+      <div class="art-meta">${a.mins} min read</div>
+    </a>`).join("");
+}
+
+async function load(){
+  try{const r=await fetch("./articles.json");if(r.ok){arts=await r.json();}else{arts=PLACEHOLDER_ARTS;}}catch{arts=PLACEHOLDER_ARTS;}
+  renderTutorials();
+  renderGrid();
+  if(arts[0]){
+    const hb=document.querySelector(".hero-banner-text");
+    if(hb)hb.textContent="Featured: "+arts[0].title.substring(0,60)+(arts[0].title.length>60?"...":"");
+  }
+}
+load();
+</script>
+</body>
+</html>
