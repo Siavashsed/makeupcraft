@@ -9,7 +9,8 @@
     "image": "https://images.pexels.com/photos/6627598/pexels-photo-6627598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "mintel.com"
-    ]
+    ],
+    "category": "Colour & Palette"
   },
   {
     "title": "Eye Makeup for Different Eye Shapes: A Real Breakdown From a Working MUA",
@@ -21,7 +22,8 @@
     "image": "https://images.pexels.com/photos/5125191/pexels-photo-5125191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "professionalbeauty.org"
-    ]
+    ],
+    "category": "Technique"
   },
   {
     "title": "How to Make Eyeshadow Stay On All Day Without Creasing (A Pro MUA's Honest Guide)",
@@ -34,6 +36,7 @@
     "outbound_links": [
       "paulaschoice.com",
       "urbandecay.com"
-    ]
+    ],
+    "category": "Colour & Palette"
   }
 ]
