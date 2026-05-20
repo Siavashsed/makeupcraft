@@ -411,6 +411,60 @@ footer{background:var(--cream);padding:100px 0 32px;border-top:1px solid var(--l
   .newsletter{padding:80px 0}
   .nl-form{flex-wrap:wrap}
   .footer-bottom{padding:24px 20px 0}
+}@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.5);opacity:.6}}@keyframes gentleRotate{to{transform:translate(-50%,-50%) rotate(360deg)}}@media (prefers-reduced-motion:reduce){
+  .reveal,.reveal-stagger > *{opacity:1;transform:none;transition:none}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  #heroCanvas{display:none}
+}@media(max-width:1080px){
+  .hero-in{grid-template-columns:1fr;gap:40px;min-height:auto}
+  .hero-text{padding:0}
+  .hero-visual{height:60vh;min-height:480px}
+  .philo-in,.editor-in,.faq-grid{grid-template-columns:1fr;gap:60px}
+  .philo-imgs{height:560px}
+  .feature-grid{grid-template-columns:1fr 1fr}
+  .feat-card.lg{grid-column:1/-1}
+  .numbers-in{grid-template-columns:1fr 1fr}
+  .numbers-in > div{border-bottom:1px solid rgba(244,235,226,.1)}
+  .numbers-in > div:nth-child(2){border-right:none}
+  .topics-grid,.art-grid{grid-template-columns:1fr 1fr}
+  .footer-top{grid-template-columns:1fr 1fr;gap:40px}
+  .nav-links,.nav-left,.nav-right .nav-links{display:none}
+  .nav-toggle{display:inline-flex}
+  .nav-in{grid-template-columns:auto 1fr;gap:16px}
+  .nav-right{display:flex}
+  .nav-right .nav-cta{display:none}
+  .nav-logo{justify-self:start}
+}@media(max-width:680px){
+  .wrap{padding:0 20px}
+  .nav-in{padding:0 20px;height:70px}
+  .mobile-panel{top:70px}
+  .nav-logo{font-size:22px}
+  .nav-logo small{font-size:8px}
+  .section{padding:80px 0}
+  .section.tight{padding:64px 0}
+  .hero{padding:30px 0 60px}
+  .hero-in{padding:0 20px}
+  .hero-visual{height:auto;min-height:0;aspect-ratio:4/5}
+  .hero-img{border-radius:18px}
+  .hero-tag{left:12px;bottom:16px;max-width:200px;padding:14px 16px;border-radius:14px}
+  .hero-tag .num{font-size:34px}
+  .hero-chip{right:12px;top:16px;padding:10px 14px;font-size:10px}
+  .hero-ctas{width:100%}
+  .hero-ctas .btn-primary,.hero-ctas .btn-ghost{width:100%;justify-content:center}
+  .trust-in{justify-content:flex-start;gap:18px;padding:0 20px}
+  .trust-item{font-size:14.5px;gap:10px}
+  .topics-grid,.art-grid,.feature-grid,.numbers-in,.footer-top{grid-template-columns:1fr}
+  .numbers-in > div{border-right:none;border-bottom:1px solid rgba(244,235,226,.1);padding:24px 16px}
+  .numbers-in > div:last-child{border-bottom:none}
+  .feed-head{flex-direction:column;align-items:flex-start}
+  .feed-head-right{text-align:left}
+  .editor-sig{right:12px;bottom:-18px;max-width:200px;padding:16px 18px}
+  .editor-sig .name{font-size:20px}
+  .philo-imgs{height:420px}
+  .philo-imgs .pi-badge{width:96px;height:96px}
+  .newsletter{padding:80px 0}
+  .nl-form{flex-wrap:wrap}
+  .footer-bottom{padding:24px 20px 0}
 }
 /* page */
 :root{
@@ -1177,7 +1231,7 @@ p{margin-bottom:18px;color:#444;line-height:1.75}
   <a href="../#newsletter" class="mp-cta">Subscribe</a>
 </div>
 <article itemscope itemtype="https://schema.org/Article"><div class="art">
-  <div class="meta"><a href="../" style="color:#999">← Home</a> &nbsp;·&nbsp; <time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15">May 15, 2026</time></time></time> &nbsp;·&nbsp; Makeup & Beauty</div>
+  <div class="meta"><a href="../" style="color:#999">← Home</a> &nbsp;·&nbsp; <time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15">May 15, 2026</time></time></time></time> &nbsp;·&nbsp; Makeup & Beauty</div>
   <h1>Foundation Matching: The Undertone Guide That Actually Works</h1>
   <div style="font-size:13px;color:#999;margin-bottom:24px">By <strong style="color:#444">Sofia Marino</strong></div>
   <img src="https://images.pexels.com/photos/6627598/pexels-photo-6627598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Makeup artist swatching multiple foundation shades along a model's jawline in natural light" loading="lazy" style="width:100%;height:400px;object-fit:cover;border-radius:8px;margin:28px 0"><p style="font-size:11px;color:#999;margin:-16px 0 20px">Photo by www.kaboompics.com / Pexels</p>
@@ -1320,7 +1374,7 @@ p{margin-bottom:18px;color:#444;line-height:1.75}
     }).catch(function(){allComments=[];rerender();});
   }
 })();
-</script></article></article></article>
+</script></article></article></article></article>
 <footer>
   <div class="footer-top">
     <div>
