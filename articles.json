@@ -38,5 +38,62 @@
       "urbandecay.com"
     ],
     "category": "Colour & Palette"
+  },
+  {
+    "title": "The EU Cosmetics Regulation Shake-Up of 2024: What Every Makeup Artist Needs to Know Right Now",
+    "slug": "eu-cosmetics-regulation-2024-makeup-artists",
+    "meta_description": "The EU's 2024 cosmetics ingredient restrictions changed what's in your foundation and eyeshadow. Here's what it means for MUAs working today.",
+    "date": "February 03, 2024",
+    "date_iso": "2024-02-03",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/1115350/pexels-photo-1115350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "eur-lex.europa.eu",
+      "ec.europa.eu",
+      "ncbi.nlm.nih.gov",
+      "cosmeticsandtoiletries.com",
+      "statista.com"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Fenty Beauty's 40-Shade Foundation Launched in 2017, But 2019 Was When the Industry Finally Had to Respond",
+    "slug": "fenty-beauty-shade-range-industry-2019",
+    "meta_description": "Sofia Marino on how the beauty industry's shade range reckoning peaked in 2019 and what it meant for MUAs working with real clients.",
+    "date": "August 20, 2019",
+    "date_iso": "2019-08-20",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/10157871/pexels-photo-10157871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "refinery29.com",
+      "npd.com"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Fenty Beauty's 50-Shade Promise Changed Foundation Matching in 2019 and We're Still Feeling It",
+    "slug": "fenty-beauty-shade-range-2019",
+    "meta_description": "Sofia Marino on how Fenty Beauty's expanded shade range in 2019 reshaped how MUAs approach foundation matching and client consultations.",
+    "date": "November 06, 2019",
+    "date_iso": "2019-11-06",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/6870495/pexels-photo-6870495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "businessoffashion.com",
+      "mckinsey.com"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
