@@ -95,5 +95,41 @@
       "en"
     ],
     "category": "Colour & Palette"
+  },
+  {
+    "title": "The Minimal Makeup Kit That Actually Handles Any Occasion",
+    "slug": "minimal-makeup-kit-any-occasion",
+    "meta_description": "Sofia Marino breaks down the exact minimal makeup kit that works for every occasion, with pro technique tips and zero filler products.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/8558429/pexels-photo-8558429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "statista.com",
+      "ncbi.nlm.nih.gov",
+      "cosmeticsandtoiletries.com"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Fenty Skin Launched in 2020 and Forced the Beauty Industry to Stop Treating Skincare as an Afterthought",
+    "slug": "fenty-skin-launch-2020-beauty-impact",
+    "meta_description": "Fenty Skin's 2020 launch reshaped how makeup artists think about skincare prep. Sofia Marino on why it mattered then and still matters now.",
+    "date": "May 17, 2020",
+    "date_iso": "2020-05-17",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/33985102/pexels-photo-33985102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "npd.com",
+      "aad.org"
+    ],
+    "posted_iso": "2026-05-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
