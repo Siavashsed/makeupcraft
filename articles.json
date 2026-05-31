@@ -133,5 +133,42 @@
       "en"
     ],
     "category": "Skincare"
+  },
+  {
+    "title": "Setting Spray vs Setting Powder: A Professional MUA's Guide to Choosing the Right One",
+    "slug": "setting-spray-vs-setting-powder",
+    "meta_description": "Setting spray vs setting powder: pro MUA Sofia Marino explains exactly when to use each, and why the wrong choice ruins your finish.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/12323035/pexels-photo-12323035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ncbi.nlm.nih.gov",
+      "aad.org",
+      "cosmeticsandtoiletries.com"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Great Lip Liner Renaissance of 2021: How NYX's Epic Ink Liner Sparked a Full Industry Rethink",
+    "slug": "lip-liner-renaissance-2021-nyx",
+    "meta_description": "In 2021, a precision liner redefined how MUAs think about lip definition. Sofia Marino breaks down what it meant for the craft.",
+    "date": "March 20, 2021",
+    "date_iso": "2021-03-20",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/14108022/pexels-photo-14108022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "statista.com",
+      "ncbi.nlm.nih.gov",
+      "ec.europa.eu"
+    ],
+    "posted_iso": "2026-05-31",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
