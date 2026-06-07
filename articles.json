@@ -172,5 +172,42 @@
       "en"
     ],
     "category": "Colour & Palette"
+  },
+  {
+    "title": "Contouring for Beginners: How to Sculpt Your Face Without Looking Overdone",
+    "slug": "contouring-beginners-sculpt-without-overdone",
+    "meta_description": "Learn contouring for beginners from a pro MUA. Sculpt naturally, avoid the muddy look, and build technique that actually works on real faces.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/7881276/pexels-photo-7881276.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ncbi.nlm.nih.gov",
+      "cosmeticsandtoiletries.com",
+      "statista.com"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "NYX Professional Makeup's Bare With Me Blur Tint: Why 2022's Drugstore SPF Moment Still Matters",
+    "slug": "2022-drugstore-spf-tint-trend",
+    "meta_description": "Sofia Marino breaks down why the 2022 bare-skin SPF tint trend changed how MUAs think about prep, protection, and client education.",
+    "date": "July 28, 2022",
+    "date_iso": "2022-07-28",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/4153615/pexels-photo-4153615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "statista.com",
+      "fda.gov",
+      "jaad.org"
+    ],
+    "posted_iso": "2026-06-07",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
