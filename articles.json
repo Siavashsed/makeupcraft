@@ -209,5 +209,26 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "EU Banned 20 Cosmetic Ingredients in 2024 and the Industry Is Still Catching Up",
+    "slug": "eu-cosmetic-ingredient-bans-2024",
+    "meta_description": "Sofia Marino breaks down the EU's sweeping 2024 cosmetic ingredient bans, what they mean for MUAs, and which products actually changed formulas.",
+    "date": "June 19, 2024",
+    "date_iso": "2024-06-19",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/5065854/pexels-photo-5065854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "eur-lex.europa.eu",
+      "efsa.europa.eu",
+      "ewg.org",
+      "cosmeticsandtoiletries.com",
+      "fda.gov"
+    ],
+    "posted_iso": "2026-06-09",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
