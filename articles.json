@@ -230,5 +230,41 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Makeup Removal Routine Is Aging You Faster Than the Sun",
+    "slug": "makeup-removal-mistakes-aging-skin",
+    "meta_description": "Makeup removal mistakes cause more skin aging than most people realize. MUA Sofia Marino breaks down what's actually damaging your skin barrier every night.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/12969381/pexels-photo-12969381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ncbi.nlm.nih.gov",
+      "aad.org"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Charlotte Tilbury's AI Mirror Landed in 2024 and Split the Industry in Two",
+    "slug": "charlotte-tilbury-ai-mirror-2024",
+    "meta_description": "Sofia Marino breaks down Charlotte Tilbury's 2024 AI beauty mirror launch, what it means for MUAs, and why the hype doesn't tell the whole story.",
+    "date": "January 18, 2024",
+    "date_iso": "2024-01-18",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/7705841/pexels-photo-7705841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "mckinsey.com",
+      "statista.com",
+      "ico.org.uk"
+    ],
+    "posted_iso": "2026-07-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
