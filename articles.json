@@ -266,5 +266,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Why Mature Skin Hates Your Setting Powder, and What to Do Instead",
+    "slug": "mature-skin-makeup-flatter-texture",
+    "meta_description": "A working MUA on mature skin makeup: how to change your application to flatter texture instead of caking into every line and crease.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/12322982/pexels-photo-12322982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ncbi.nlm.nih.gov",
+      "aad.org"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "MoCRA Just Passed, and Every Makeup Kit Is About to Change",
+    "slug": "mocra-2022-makeup-artists",
+    "meta_description": "Congress just gave the FDA real power over cosmetics for the first time since 1938. Here is what MoCRA 2022 means for working makeup artists.",
+    "date": "July 12, 2022",
+    "date_iso": "2022-07-12",
+    "author": "Bibiana Russo",
+    "image": "https://images.pexels.com/photos/7290695/pexels-photo-7290695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "pubs.acs.org"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
