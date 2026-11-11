@@ -189,7 +189,8 @@
     "posted_iso": "2026-06-07",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Technique"
   },
   {
     "title": "NYX Professional Makeup's Bare With Me Blur Tint: Why 2022's Drugstore SPF Moment Still Matters",
@@ -208,7 +209,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Product Edit"
   },
   {
     "title": "EU Banned 20 Cosmetic Ingredients in 2024 and the Industry Is Still Catching Up",
@@ -229,7 +231,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Colour & Palette"
   },
   {
     "title": "Your Makeup Removal Routine Is Aging You Faster Than the Sun",
@@ -246,7 +249,8 @@
     "posted_iso": "2026-07-01",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Skincare"
   },
   {
     "title": "Charlotte Tilbury's AI Mirror Landed in 2024 and Split the Industry in Two",
@@ -265,7 +269,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Colour & Palette"
   },
   {
     "title": "Why Mature Skin Hates Your Setting Powder, and What to Do Instead",
@@ -282,7 +287,8 @@
     "posted_iso": "2026-07-13",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Colour & Palette"
   },
   {
     "title": "MoCRA Just Passed, and Every Makeup Kit Is About to Change",
@@ -300,7 +306,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Colour & Palette"
   },
   {
     "title": "Dewy or Matte? Your Skin's Oil Map Decides, Not the Trend",
@@ -318,7 +325,8 @@
     "posted_iso": "2026-07-15",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Skincare"
   },
   {
     "title": "Why Pros Never Start Over When Makeup Goes Wrong",
@@ -335,6 +343,7 @@
     "posted_iso": "2026-07-17",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Colour & Palette"
   }
 ]
