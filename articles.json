@@ -345,5 +345,42 @@
       "en"
     ],
     "category": "Colour & Palette"
+  },
+  {
+    "title": "Your Quick Brush Spray Isn't Cleaning What You Think",
+    "slug": "clean-sanitize-makeup-brushes-sponges",
+    "meta_description": "A working MUA on how to clean and sanitize makeup brushes and sponges: soap first, 70% alcohol second, and when to throw a sponge away.",
+    "date": "November 15, 2026",
+    "date_iso": "2026-11-15",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/37377913/pexels-photo-37377913.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "cdc.gov",
+      "fda.gov"
+    ],
+    "posted_iso": "2026-11-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Mask Year Killed Lipstick and Handed Makeup Artists the Eyes",
+    "slug": "2020-face-masks-makeup-artists",
+    "meta_description": "2020 masks made lipstick pointless and transfer-proof base the main skill. A working MUA on what the mask year changed for makeup artists.",
+    "date": "March 16, 2020",
+    "date_iso": "2020-03-16",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/8091881/pexels-photo-8091881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "cdc.gov",
+      "mckinsey.com",
+      "aad.org"
+    ],
+    "posted_iso": "2026-11-15",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
