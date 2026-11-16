@@ -382,5 +382,24 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Mascara Turned Risky Weeks Ago, and the Label Never Said So",
+    "slug": "how-long-makeup-really-lasts",
+    "meta_description": "How long makeup really lasts once opened, from a working MUA: real shelf lives, the hygiene habits that shorten them, and what to toss today.",
+    "date": "November 16, 2026",
+    "date_iso": "2026-11-16",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/4620843/pexels-photo-4620843.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "eur-lex.europa.eu",
+      "fda.gov",
+      "aao.org"
+    ],
+    "posted_iso": "2026-11-16",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
