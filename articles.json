@@ -401,5 +401,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Veins Are Lying About Your Undertone, and Your Foundation Shows It",
+    "slug": "undertone-foundation-matching-depth-first",
+    "meta_description": "A working makeup artist's undertone guide to foundation matching: why the vein test fails, why depth matters more, and the jaw test that works.",
+    "date": "November 17, 2026",
+    "date_iso": "2026-11-17",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/5468723/pexels-photo-5468723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "skintone.google",
+      "onlinelibrary.wiley.com",
+      "pantone.com"
+    ],
+    "posted_iso": "2026-11-17",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
