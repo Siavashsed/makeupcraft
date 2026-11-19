@@ -437,5 +437,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Primer Isn't Failing You. Your Eyelid Oil Is Winning.",
+    "slug": "eyeshadow-all-day-without-creasing-method",
+    "meta_description": "A pro makeup artist explains how to make eyeshadow stay on all day without creasing: thin primer, a powder lock and pressed color.",
+    "date": "November 19, 2026",
+    "date_iso": "2026-11-19",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/16974742/pexels-photo-16974742.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ncbi.nlm.nih.gov",
+      "fda.gov"
+    ],
+    "posted_iso": "2026-11-19",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
