@@ -472,5 +472,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Foundation Can't Fix What Your Skincare Skipped",
+    "slug": "fix-skin-before-makeup-application",
+    "meta_description": "Fix hydration and texture before any foundation touches your face. A working MUA explains what skincare solves, what makeup covers, and how to tell.",
+    "date": "November 21, 2026",
+    "date_iso": "2026-11-21",
+    "author": "Roxana Petrescu",
+    "image": "https://images.pexels.com/photos/5938295/pexels-photo-5938295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "aad.org",
+      "acpjournals.org"
+    ],
+    "posted_iso": "2026-11-21",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
