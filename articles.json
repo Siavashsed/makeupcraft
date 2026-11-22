@@ -489,5 +489,41 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The Drugstore Products That Beat Luxury in My Pro Kit",
+    "slug": "drugstore-products-outperform-luxury",
+    "meta_description": "Which drugstore products outperform luxury ones? A working makeup artist names the winners, the losers, and how to test them yourself.",
+    "date": "November 22, 2026",
+    "date_iso": "2026-11-22",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/7290690/pexels-photo-7290690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "ewg.org",
+      "aad.org"
+    ],
+    "posted_iso": "2026-11-22",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Law That Rewrote US Makeup Rules After 85 Years of Silence",
+    "slug": "mocra-2023-makeup-artists-fda-rules",
+    "meta_description": "The FDA's MoCRA rollout in 2023 changes what makeup artists must track, report and stock. Here's what I'm changing in my own kit and records.",
+    "date": "September 24, 2023",
+    "date_iso": "2023-09-24",
+    "author": "Bibiana Russo",
+    "image": "https://images.pexels.com/photos/13714621/pexels-photo-13714621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "pubs.acs.org"
+    ],
+    "posted_iso": "2026-11-22",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
