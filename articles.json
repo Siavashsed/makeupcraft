@@ -559,5 +559,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Brushes Matter Less Than Your Sponge and Your Spoolie",
+    "slug": "makeup-application-tools-that-matter",
+    "meta_description": "A working MUA explains which makeup application tools actually change your results, which are filler, and why washing them matters more than buying them.",
+    "date": "November 25, 2026",
+    "date_iso": "2026-11-25",
+    "author": "Sofia Marino",
+    "image": "https://images.pexels.com/photos/36840014/pexels-photo-36840014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "fda.gov"
+    ],
+    "posted_iso": "2026-11-25",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
